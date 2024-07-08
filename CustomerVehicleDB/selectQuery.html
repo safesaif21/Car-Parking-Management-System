@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<!--(c) Saeed Mirjalili-->
+<!--Update a Record in a Table-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Update a Record in a Table</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <form method="post" action="php/selectAllQuery.php">
+      <fieldset>
+        <legend>Display All Customer Vehicles</legend>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <br />
+    <br />
+    <form method="post" action="php/selectLikeQuery.php">
+      <fieldset>
+        <legend>Display All Customer Vehicles whos license Plate starts with:</legend>
+        <input type="text" name="lp" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+    <form method="post" action="php/selectWhereQuery.php">
+      <fieldset>
+        <legend>Display Every Customer Vehicle that is a specific size</legend>
+        <label>Vehicle Size:</label>
+        <br />
+        <input name="size" type="radio" value="S" /> <label>Small</label>
+        <br />
+        <input name="size" type="radio" value="L" /> <label>Large</label>
+        <br />
+        <input type="submit" value="Submit" />
+      </fieldset>
+    </form>
+    <a href='index.html'>Back to the Homepage</a>
+  </body>
+</html>
