@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves creating a comprehensive database to manage car parking lots for a hypothetical large company. The system covers the management of parking lots, blocks, stalls, customer passes, daily parking, tickets, and receipts.
+This project involves creating a comprehensive database and web application to manage car parking lots for a hypothetical large company. It covers the management of parking lots, blocks, stalls, customer passes, daily parking, tickets, and receipts. The system delivers a robust solution utilizing MySQL, PHP, WAMP Server, and a modern web interface, ensuring efficient and effective management of parking operations.
 
 ## Technology Stack
 
@@ -119,6 +119,13 @@ To get started with WAMP Server:
 2. Place the `CustomerVehicleDB` folder (which contains alll PHP scripts) in the `www` directory of your WAMP installation.
 3. Start the WAMP Server and type `localhost/CustomerVehicleDB` the browser to access the web application.
 
-## Conclusion
+## Contributers
+This project was made by Saif Ali, and Karen Yao.
 
-This project delivers a robust system for managing car parking lots, offering comprehensive functionality for both database management and user interaction through a web application. The combination of MySQL, PHP, WAMP Server, and a modern web interface ensures efficient and effective management of parking operations for a large company.
+Personal Github links:
+
+Saif: https://github.com/safesaif21
+
+Karen: https://github.com/karyao
+
+
